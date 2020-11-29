@@ -1,0 +1,101 @@
+
+*{
+	padding: 0;
+	margin :0;
+
+}
+body{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+
+}
+header img{
+	padding: 60px;
+
+}
+header ul li{
+	display: inline-flex;
+	padding: 20px;
+	margin-top: 80px;
+	margin-right: 20px;
+	transform: translateX(-10%);
+	
+}
+header ul li a{
+ text-decoration: none;
+ color: #136ade;
+ font-size: 22px;
+ transition: .4s;
+
+}
+header ul li a:hover{
+	border-bottom:4px solid #2bc79d;
+
+
+}
+header ul button{
+	margin-right: 80px;
+
+	height: 40px;
+	width: 150px;
+	background: white;
+	border:1px solid #136ade;
+	border-radius: 10px;
+	transition: .4s;
+}
+header ul button a{
+	color: #136ade;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 20px;
+}
+.content{
+	padding-left: 100px;
+	display:flex;
+	align-items:  center;
+}
+.content div{
+	width: 50%;
+
+}
+.text-box h1{
+	font-size: 40px;
+	color: #136ade;
+	font-weight: normal;
+}
+
+.text-box button{
+
+	height: 50px;
+	width: 200px;
+	background: #2bc79d;
+	border-radius: 8px;
+	margin-top: 50px;
+}
+.text-box button a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+.img-box img{
+	height: 600px;
+	width: 600px;
+	padding-left: 20px;
+}
+.social ul{
+	padding-left:  130px;
+	padding-bottom: 50px;
+}
+.social ul li {
+	padding: 20px;
+	display:inline-flex;
+	opacity: .4;
+}
+.social ul li:hover{
+	opacity: 1;
+	transition: .5s;
+}

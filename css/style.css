@@ -1,0 +1,106 @@
+*{
+	padding :0;
+	margin: 0;
+
+}
+
+body {
+	font-family: sans-serif;
+	padding: 2%;
+	box-sizing: border-box;
+}
+.full{
+	position: relative;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.menu li{
+	display: inline-flex;
+	padding: 20px;
+
+}
+.menu li a{
+	color: #136ade;
+	text-decoration: none;
+	font-size: 20px;
+	transition: .5s;
+}
+.menu li a:hover{
+
+	border-bottom: 4px solid #2bc79d;
+}
+button{
+	height:40px;
+	width: 100px;
+	margin-left:  20px;
+	margin-bottom: 20px;
+	border: 2px solid #136ade;
+	background: white;
+	border-radius: 10px;
+	
+}
+button a{
+	text-decoration: none;
+	color:#136ade;
+	text-align: center;
+
+}
+.content{
+	width: 100%;
+	display: flex;
+	padding: 100px;
+	box-sizing: border-box;
+	align-items: center;
+
+}
+.content div{
+	width: 50%;
+
+
+
+}
+.text-box h1{
+	color: #136ade;
+	font-size: 38px;
+	font-weight: normal;
+
+}
+.text-box button{
+	width: 200px;
+	height: 50px;
+	padding: 10px 35px;
+	background: #2bc79d;
+	border-radius: 4px;
+	margin: 20px 20px;
+	cursor: pointer;
+}
+.text-box button a{
+	color: white;
+	font-size: 15px;
+}
+.image-box img{
+	height: 650px;
+	width: 600px;
+	}
+
+.image-box{
+
+	display: flex;
+	justify-content: center;
+}
+.social ul li{
+	display: inline-flex;
+	text-decoration: none;
+	padding: 10px;
+	opacity: .2;
+}
+.social ul {
+	margin-left: 90px;
+	
+}
+.social ul li:hover{
+	opacity: 1;
+}
